@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Bicol Region, Philippines — where the perfect cone of Mayon meets the Pacific. Plan your trip to Caramoan, Donsol, Cagsawa, and beyond.">
+  <meta name="author" content="Student">
+  <title>Bicol · Where Fire Meets Sea — Philippines Travel</title>
+
+  <!-- Google Fonts: Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-home">
+
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============================================================
+       SITE HEADER  ·  sticky nav shared across all pages
+       ============================================================ -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html" aria-label="Bicol Travel — home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        Bicol
+        <span class="brand__small">Region V · Philippines</span>
+      </a>
+
+      <!-- CSS-only mobile menu (checkbox hack) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="destinations.html">Destinations</a></li>
+          <li><a class="nav-link" href="activities.html">Activities</a></li>
+          <li><a class="nav-link" href="history.html">History</a></li>
+          <li><a class="nav-link" href="plan-trip.html">Plan Trip</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================================================
+         HERO  ·  full-bleed Mayon Volcano with overlay
+         ============================================================ -->
+    <section class="hero" aria-label="Introduction to Bicol Region">
+      <div class="hero__media">
+        <img src="assets/images/mayon-volcano.jpg"
+             alt="Mayon Volcano rising above the Cagsawa fields in Albay, Bicol Region, Philippines"
+             fetchpriority="high">
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <p class="hero__eyebrow">Region V · Luzon · Philippines</p>
+        <h1 class="hero__title">Where <em>fire</em><br>meets <em>sea</em>.</h1>
+        <p class="hero__tagline">
+          Six provinces cradled between an active volcano and the Pacific — Bicol is
+          where perfect cones, whale sharks, hidden coves, and the spiciest kitchen
+          in the country share the same coastline.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--terracotta" href="destinations.html">
+            Explore destinations <span class="arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="btn btn--light" href="plan-trip.html">Plan your trip</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         INTRO  ·  two-column: narrative + stats panel
+         ============================================================ -->
+    <section class="section section--alt" aria-labelledby="intro-heading">
+      <div class="container">
+        <div class="section-header section-header--split">
+          <div>
+            <p class="section-header__index">01 — Introduction</p>
+          </div>
+          <div>
+            <p class="section-header__eyebrow">A region of contrasts</p>
+            <h2 class="section-header__title" id="intro-heading">
+              One <em>volcano</em>, two seas, and a kitchen that bites back.
+            </h2>
+          </div>
+        </div>
+
+        <div class="intro">
+          <div class="intro__body">
+            <p>
+              The Bicol Region occupies the southeastern tail of Luzon, a long
+              peninsula that reaches toward the Visayas and faces the open Pacific.
+              It is defined by a single geological protagonist — Mount Mayon, the
+              world's most perfectly conical volcano — and by the warm waters that
+              lap its coastline, where whale sharks gather each spring to feed on
+              plankton blooms off Donsol.
+            </p>
+            <p>
+              Bicolanos speak Bikol, cook with coconut milk and finger chilies, and
+              stage some of the largest religious festivals in the country. Spanish
+              friars arrived in 1569 and built stone churches that still stand today,
+              though many were buried by Mayon's eruptions — most famously the
+              Cagsawa church, whose bell tower is all that remains above ground.
+            </p>
+            <p>
+              The region is generous with its contrasts: black-sand beaches at the
+              foot of a fiery mountain, hidden lagoons behind limestone cliffs,
+              abaca weavers whose craft predates colonization, and a deep Catholic
+              devotion anchored on the Peñafrancia, the largest Marian festival in
+              the Philippines.
+            </p>
+          </div>
+
+          <!-- Stats panel -->
+          <aside class="stats" aria-label="Bicol Region at a glance">
+            <div class="stat">
+              <div class="stat__value">6</div>
+              <div class="stat__label">Provinces</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value">2,463<sup>m</sup></div>
+              <div class="stat__label">Mayon summit elevation</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value">9</div>
+              <div class="stat__label">Distinct languages &amp; dialects</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value">313<sup> yrs</sup></div>
+              <div class="stat__label">Peñafrancia devotion</div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- ============================================================
+         FEATURED  ·  Caramoan Islands spotlight
+         ============================================================ -->
+    <section class="section" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__eyebrow">Featured destination</p>
+          <h2 class="section-header__title" id="featured-heading">
+            The <em>hidden</em> islands of Caramoan.
+          </h2>
+        </div>
+
+        <article class="featured">
+          <div class="featured__media">
+            <span class="featured__tag">Cam Sur · Camarines Sur</span>
+            <img src="assets/images/caramoan-island.jpg"
+                 alt="Limestone karst cliffs and turquoise lagoon in the Caramoan Islands, Camarines Sur">
+          </div>
+
+          <div class="featured__body">
+            <p class="eyebrow">Island hopping · Limestones · Lagoons</p>
+            <h3 class="featured__title">
+              The Philippines' <em>secret</em> archipelago.
+            </h3>
+            <p>
+              Long closed to mass tourism and reachable only by boat from Sabang,
+              Caramoan is a scatter of limestone islands wrapped in white sand and
+              hidden lagoons. The same shores that hosted multiple seasons of the
+              reality show <em>Survivor</em> remain strikingly empty most weeks of
+              the year. Kayak through sea caves, swim in lagoons open only at low
+              tide, and end the day on a sandbar that disappears with the tide.
+            </p>
+
+            <div class="featured__meta">
+              <div class="featured__meta-item">
+                <span class="featured__meta-label">Best season</span>
+                <span class="featured__meta-value">Mar – May</span>
+              </div>
+              <div class="featured__meta-item">
+                <span class="featured__meta-label">Travel from</span>
+                <span class="featured__meta-value">Naga · 2 hr</span>
+              </div>
+              <div class="featured__meta-item">
+                <span class="featured__meta-label">Highlight</span>
+                <span class="featured__meta-value">Lahos Island</span>
+              </div>
+            </div>
+
+            <a class="btn btn--primary" href="destinations.html">
+              See all destinations <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- ============================================================
+         GALLERY  ·  mixed grid of tourist spots
+         ============================================================ -->
+    <section class="section section--alt" aria-labelledby="gallery-heading">
+      <div class="container">
+        <div class="section-header section-header--split">
+          <div>
+            <p class="section-header__index">02 — Gallery</p>
+            <p class="section-header__eyebrow">Postcards from the region</p>
+            <h2 class="section-header__title" id="gallery-heading">
+              Six postcards from the field.
+            </h2>
+          </div>
+          <p class="section-header__lede">
+            A visual sampler from across the six provinces — Mayon, Cagsawa's
+            bell tower, Donsol's whale sharks, and a Magayon Festival street dance.
+            Each photo opens onto its destination in the gallery below.
+          </p>
+        </div>
+
+        <div class="gallery">
+          <a class="gallery__item gallery__item--wide gallery__item--tall" href="destinations.html#cagsawa">
+            <img src="assets/images/cagsawa-ruins.jpg" alt="Cagsawa Ruins with Mayon Volcano behind">
+            <div class="gallery__caption">
+              <div class="gallery__caption-name">Cagsawa Ruins</div>
+              <div class="gallery__caption-loc">Daraga · Albay</div>
+            </div>
+          </a>
+          <a class="gallery__item" href="destinations.html#donsol">
+            <img src="assets/images/donsol-whale-shark.jpg" alt="Whale shark swimming in Donsol">
+            <div class="gallery__caption">
+              <div class="gallery__caption-name">Butanding</div>
+              <div class="gallery__caption-loc">Donsol · Sorsogon</div>
+            </div>
+          </a>
+          <a class="gallery__item" href="destinations.html#misibis">
+            <img src="assets/images/misibis-bay.jpg" alt="Misibis Bay beach resort">
+            <div class="gallery__caption">
+              <div class="gallery__caption-name">Misibis Bay</div>
+              <div class="gallery__caption-loc">Bacacay · Albay</div>
+            </div>
+          </a>
+          <a class="gallery__item" href="destinations.html#caramoan">
+            <img src="assets/images/caramoan-beach.jpg" alt="Caramoan white sand beach">
+            <div class="gallery__caption">
+              <div class="gallery__caption-name">Caramoan Beach</div>
+              <div class="gallery__caption-loc">Camarines Sur</div>
+            </div>
+          </a>
+          <a class="gallery__item" href="history.html">
+            <img src="assets/images/penafrancia-festival.jpg" alt="Peñafrancia Festival procession in Naga">
+            <div class="gallery__caption">
+              <div class="gallery__caption-name">Peñafrancia</div>
+              <div class="gallery__caption-loc">Naga · Camarines Sur</div>
+            </div>
+          </a>
+          <a class="gallery__item gallery__item--wide" href="destinations.html#camsur">
+            <img src="assets/images/camsur-watersports.jpg" alt="CamSur Watersports Complex wakeboarding">
+            <div class="gallery__caption">
+              <div class="gallery__caption-name">CamSur Wakepark</div>
+              <div class="gallery__caption-loc">Pili · Camarines Sur</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- ============================================================
+         CULTURE TEASER  ·  three columns
+         ============================================================ -->
+    <section class="section" aria-labelledby="culture-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__eyebrow">Culture &amp; character</p>
+          <h2 class="section-header__title" id="culture-heading">
+            Three things Bicolanos are <em>known</em> for.
+          </h2>
+        </div>
+
+        <div class="culture-grid">
+          <article class="culture-card">
+            <div class="culture-card__media">
+              <img src="assets/images/penafrancia-festival.jpg"
+                   alt="Devotees carry the image of Our Lady of Peñafrancia during the festival fluvial procession in Naga">
+            </div>
+            <div class="culture-card__body">
+              <p class="culture-card__tag">Festivals</p>
+              <h3 class="culture-card__title">Devotion on the river</h3>
+              <p class="culture-card__desc">
+                For 313 years, Naga has closed the streets every September to carry
+                <em>Ina</em> — the Peñafrancia — down the Bicol River on a flotilla
+                of bancas. It is the largest Marian gathering in the country.
+              </p>
+            </div>
+          </article>
+
+          <article class="culture-card">
+            <div class="culture-card__media">
+              <img src="assets/images/bicol-express.jpg" alt="A bowl of Bicol Express, the region's signature spicy pork dish in coconut milk">
+            </div>
+            <div class="culture-card__body">
+              <p class="culture-card__tag">Cuisine</p>
+              <h3 class="culture-card__title">Coconut &amp; fire</h3>
+              <p class="culture-card__desc">
+                Bicolano cooking is built on gata (coconut milk) and siling
+                mahaba (long chilies). Bicol Express, laing, and pinangat each
+                arrive at the table steaming, creamy, and unmistakably spicy.
+              </p>
+            </div>
+          </article>
+
+          <article class="culture-card">
+            <div class="culture-card__media">
+              <img src="assets/images/abaca-weaving.jpg" alt="Abaca fibers being woven into textile">
+            </div>
+            <div class="culture-card__body">
+              <p class="culture-card__tag">Crafts</p>
+              <h3 class="culture-card__title">Abaca &amp; pili</h3>
+              <p class="culture-card__desc">
+                Bicol grows most of the country's abaca — the world's strongest
+                natural fiber. Weavers turn it into rope, textile, and intricately
+                dyed mats; pili trees supply the country's most prized nut.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CTA  ·  plan your trip callout
+         ============================================================ -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="cta">
+          <div class="cta__bg" aria-hidden="true">
+            <img src="assets/images/legazpi-city.jpg" alt="">
+          </div>
+          <p class="cta__eyebrow">Start planning</p>
+          <h2 class="cta__title">
+            A 3-day itinerary, ready when <em>you</em> are.
+          </h2>
+          <p class="cta__lede">
+            We've sketched a weekend route from Legazpi to Caramoan — day-by-day
+            itinerary, travel tips, packing checklist, and a form to ask us anything.
+          </p>
+          <div class="cta__actions">
+            <a class="btn btn--terracotta" href="plan-trip.html">
+              Open the planner <span class="arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="btn btn--light" href="activities.html">Browse activities</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER  ·  shared across all pages
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+
+        <div class="site-footer__brand">
+          <a class="brand" href="index.html">
+            <span class="brand__mark" aria-hidden="true"></span>
+            Bicol
+          </a>
+          <p class="site-footer__tagline">
+            A student project showcasing the destinations, culture, and travel
+            resources of Region V — Bicol, Philippines.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="history.html">History &amp; Culture</a></li>
+            <li><a href="plan-trip.html">Plan Your Trip</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>Department of Tourism — Region V<br>Legazpi City, Albay 4500</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.81.36 1.6.7 2.34a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.74-1.27a2 2 0 012.11-.45c.74.34 1.53.57 2.34.7A2 2 0 0122 16.92z"/>
+              </svg>
+              <span>+63 (52) 820 0317</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              <span>visit@bicol.ph</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="plan-trip.html#itinerary">3-day itinerary</a></li>
+            <li><a href="plan-trip.html#tips">Travel tips</a></li>
+            <li><a href="plan-trip.html#packing">Packing checklist</a></li>
+            <li><a href="plan-trip.html#contact-form">Contact form</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>&copy; 2025 Student Project · IntroComp Final · Bicol Region V · Philippines.</p>
+        <p>Photos via Wikimedia Commons. Educational use only.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

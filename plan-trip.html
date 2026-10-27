@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plan your trip to Bicol Region — a 3-day itinerary, travel tips, packing checklist, and a contact form for any questions.">
+  <meta name="author" content="Student">
+  <title>Plan Your Trip · Bicol Region</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-plan">
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============================================================
+       SITE HEADER
+       ============================================================ -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html" aria-label="Bicol Travel — home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        Bicol
+        <span class="brand__small">Region V · Philippines</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="destinations.html">Destinations</a></li>
+          <li><a class="nav-link" href="activities.html">Activities</a></li>
+          <li><a class="nav-link" href="history.html">History</a></li>
+          <li><a class="nav-link" href="plan-trip.html">Plan Trip</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================================================
+         PAGE HERO
+         ============================================================ -->
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="page-hero__media">
+        <img src="assets/images/legazpi-city.jpg"
+             alt="Aerial view of Legazpi City with Mayon Volcano in the background"
+             fetchpriority="high">
+      </div>
+      <div class="container page-hero__content">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb__sep">/</span>
+          <span aria-current="page">Plan Your Trip</span>
+        </nav>
+        <p class="page-hero__eyebrow">3-day itinerary · Tips · Packing · Contact</p>
+        <h1 class="page-hero__title" id="page-title">Plan Your Trip</h1>
+        <p class="page-hero__lede">
+          A weekend route across Albay and Camarines Sur — from Legazpi's Mayon
+          viewpoints to the lagoons of Caramoan — plus everything you need to
+          pack, prepare, and ask us along the way.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         3-DAY ITINERARY  ·  table format (rubric requirement)
+         ============================================================ -->
+    <section class="section" id="itinerary" aria-labelledby="itin-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__index">01 — Itinerary</p>
+          <p class="section-header__eyebrow">Three days · Two provinces</p>
+          <h2 class="section-header__title" id="itin-heading">
+            A <em>weekend</em> route across Bicol.
+          </h2>
+          <p class="section-header__lede">
+            Built around the most reliable flight route — Manila to Legazpi (1 hr).
+            Add a fourth day if you want to extend to Caramoan overnight.
+          </p>
+        </div>
+
+        <div class="itinerary-wrap">
+          <table class="itinerary">
+            <caption>
+              <span>3-day itinerary</span>
+              Bicol weekend — Legazpi → Caramoan → Donsol
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Time</th>
+                <th scope="col">Day 1 — Arrival &amp; Mayon</th>
+                <th scope="col">Day 2 — Caramoan Islands</th>
+                <th scope="col">Day 3 — Donsol &amp; Departure</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Morning<span>07:00 – 11:00</span></th>
+                <td>
+                  <strong>Arrive Legazpi (RGN airport)</strong>
+                  Pick up transfer, check-in to hotel in Legazpi City. Breakfast
+                  at Smalltalk Cafe — order the Bicol Express pasta.
+                </td>
+                <td>
+                  <strong>Drive to Sabang port</strong>
+                  2-hour van from Legazpi to Sabang, then a 30-minute banca to
+                  Caramoan. Lunch at the host resort before launch.
+                </td>
+                <td>
+                  <strong>Drive to Donsol</strong>
+                  2.5-hour transfer to Donsol, Sorsogon. Register at the
+                  Butanding Interaction Center for the 7 am slot.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Afternoon<span>11:00 – 16:00</span></th>
+                <td>
+                  <strong>Cagsawa Ruins &amp; ATV</strong>
+                  Visit the bell-tower ruins, then a 2-hour ATV circuit on the
+                  2006 Mayon lava flow. Snack at the abaca weavers' stalls.
+                </td>
+                  <td>
+                  <strong>Island-hopping circuit</strong>
+                  Banca tour of Matukad, Lahos, and Pitogo islands — kayak
+                  through sea caves and swim in lagoons open at low tide.
+                </td>
+                <td>
+                  <strong>Whale-shark interaction</strong>
+                  Snorkel-only encounter with butanding. WWF-regulated, max 6
+                  swimmers per shark, no touching, no flash.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Evening<span>16:00 – 21:00</span></th>
+                <td>
+                  <strong>Ligñon Hill sunset</strong>
+                  Drive up Ligñon Hill for the sunset view of Mayon's silhouette.
+                  Dinner at Balay Suanoy — try the pinangat and pili tart.
+                </td>
+                <td>
+                  <strong>Resort dinner &amp; rest</strong>
+                  Quiet dinner at the Caramoan resort; pack a day-bag for
+                  tomorrow's drive to Donsol.
+                </td>
+                <td>
+                  <strong>Firefly river tour</strong>
+                  6 pm banca ride up the Donsol River mangrove corridor —
+                  thousands of fireflies light the trees like Christmas.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- ============================================================
+         TRAVEL TIPS  +  PACKING CHECKLIST (two-column)
+         ============================================================ -->
+    <section class="section section--alt" aria-labelledby="tips-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__index">02 — Tips &amp; packing</p>
+          <p class="section-header__eyebrow">Practical advice</p>
+          <h2 class="section-header__title" id="tips-heading">
+            Ten <em>tips</em> and a checklist.
+          </h2>
+        </div>
+
+        <div class="plan-grid">
+
+          <!-- Travel tips -->
+          <div id="tips">
+            <h3 style="font-size: var(--t-h3); margin-bottom: var(--space-5);">Travel tips</h3>
+            <ul class="tips-list">
+              <li class="tips-list__item">
+                <span class="tips-list__num">01</span>
+                <p class="tips-list__text">
+                  <strong>Fly into Legazpi (LGP)</strong>
+                  Manila to Legazpi is a one-hour flight on Cebu Pacific or
+                  Philippine Airlines — daily, often under PHP 2,500 round-trip
+                  if booked two weeks ahead.
+                </p>
+              </li>
+              <li class="tips-list__item">
+                <span class="tips-list__num">02</span>
+                <p class="tips-list__text">
+                  <strong>Travel between October and May</strong>
+                  The dry season offers the clearest views of Mayon and the
+                  calmest seas for Caramoan. Avoid the typhoon months of
+                  July–September.
+                </p>
+              </li>
+              <li class="tips-list__item">
+                <span class="tips-list__num">03</span>
+                <p class="tips-list__text">
+                  <strong>Book the whale-shark slot the day before</strong>
+                  Donsol's Butanding Center issues 25 boat permits per day.
+                  Register in person at 4 pm for the next morning's 7 am slot.
+                </p>
+              </li>
+              <li class="tips-list__item">
+                <span class="tips-list__num">04</span>
+                <p class="tips-list__text">
+                  <strong>Carry cash</strong>
+                  ATMs are reliable in Legazpi and Naga but scarce in Caramoan
+                  and Donsol. Withdraw PHP 5,000–10,000 before leaving the cities.
+                </p>
+              </li>
+              <li class="tips-list__item">
+                <span class="tips-list__num">05</span>
+                <p class="tips-list__text">
+                  <strong>Bring reef-safe sunscreen</strong>
+                  Oxybenzone-free sunscreen is required for any swim near the
+                  Caramoan reefs. Available at Watsons in Legazpi.
+                </p>
+              </li>
+              <li class="tips-list__item">
+                <span class="tips-list__num">06</span>
+                <p class="tips-list__text">
+                  <strong>Hire a guide for Mt. Isarog</strong>
+                  Permits and a registered guide are required at the PENRO office
+                  in Naga. Book at least one day ahead — the trailhead is 1.5 hours
+                  from the city.
+                </p>
+              </li>
+              <li class="tips-list__item">
+                <span class="tips-list__num">07</span>
+                <p class="tips-list__text">
+                  <strong>Respect the chilies</strong>
+                  Bicolano dishes are spicier than they look. Ask for "less spicy"
+                  (<em>halang hinabo</em>) — most kitchens will accommodate.
+                </p>
+              </li>
+              <li class="tips-list__item">
+                <span class="tips-list__num">08</span>
+                <p class="tips-list__text">
+                  <strong>Use tricycles for short hops, vans for cities</strong>
+                  Tricycle fares within Legazpi are PHP 10–50. For Naga or
+                  CamSur, book a UV Express van — fixed routes, PHP 60–120/seat.
+                </p>
+              </li>
+              <li class="tips-list__item">
+                <span class="tips-list__num">09</span>
+                <p class="tips-list__text">
+                  <strong>Bring a dry bag</strong>
+                  Almost every activity involves getting wet — banca rides, kayaks,
+                  whale-shark swims. A 10-litre dry bag costs PHP 400 at SM Legazpi.
+                </p>
+              </li>
+              <li class="tips-list__item">
+                <span class="tips-list__num">10</span>
+                <p class="tips-list__text">
+                  <strong>Save your receipts</strong>
+                  Most resorts in Caramoan and Donsol are cash-only and tax-free
+                  for foreign tourists on stays of 4+ nights — keep receipts for
+                  refund claims at the airport.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Packing checklist (CSS-only checkbox hack) -->
+          <aside class="checklist" id="packing" aria-labelledby="packing-title">
+            <p class="checklist__sub">Packing checklist</p>
+            <h3 class="checklist__title" id="packing-title">Don't leave without these.</h3>
+            <ul>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="passport">
+                  <span>Passport + photocopy (separate bag)</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="tickets">
+                  <span>Flight itinerary (printed + on phone)</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="cash">
+                  <span>Cash — PHP 8,000 minimum (small bills)</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="reef-sunscreen">
+                  <span>Reef-safe sunscreen, SPF 50+</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="insect-repellent">
+                  <span>Insect repellent (DEET 30%)</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="hat">
+                  <span>Wide-brim hat &amp; polarised sunglasses</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="swimwear">
+                  <span>Swimwear (2 sets, one to dry while wearing other)</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="rashguard">
+                  <span>Rashguard or long-sleeve swim shirt</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="dry-bag">
+                  <span>Dry bag, 10 L minimum</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="snorkel">
+                  <span>Mask &amp; snorkel (optional — boats supply, but hygiene)</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="hiking-shoes">
+                  <span>Trail shoes for Mayon ATV &amp; Mt. Isarog</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="light-rain-jacket">
+                  <span>Light rain jacket (sudden showers are common)</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="power-bank">
+                  <span>Power bank (20,000 mAh minimum)</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="meds">
+                  <span>Personal medication + motion-sickness tablets</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="pack" value="refillable-bottle">
+                  <span>Refillable water bottle</span>
+                </label>
+              </li>
+            </ul>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- ============================================================
+         CONTACT FORM  (rubric requirement)
+         ============================================================ -->
+    <section class="section" id="contact-form" aria-labelledby="form-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__index">03 — Contact form</p>
+          <p class="section-header__eyebrow">Ask us anything</p>
+          <h2 class="section-header__title" id="form-heading">
+            Questions before you <em>fly</em>?
+          </h2>
+        </div>
+
+        <form class="contact-form" action="#" method="post" aria-label="Contact form">
+
+          <div class="contact-form__intro">
+            <p class="eyebrow">Send a message</p>
+            <h3>Tell us about your trip.</h3>
+            <p>
+              Fill out the form below with your details and any questions, and our
+              team at the Bicol Regional Tourism Office will respond within two
+              business days. We do not share your information with third parties.
+            </p>
+          </div>
+
+          <!-- Two-column grid: stacked to one column on mobile -->
+          <div class="form-grid">
+
+            <div class="form-field">
+              <label class="form-label" for="full-name">Full name <span class="req" aria-hidden="true">*</span></label>
+              <input class="form-input" type="text" id="full-name" name="full_name"
+                     placeholder="e.g. Maria Clara Santos" required>
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="email">Email address <span class="req" aria-hidden="true">*</span></label>
+              <input class="form-input" type="email" id="email" name="email"
+                     placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="visit-date">Planned visit date <span class="req" aria-hidden="true">*</span></label>
+              <input class="form-input" type="date" id="visit-date" name="visit_date" required>
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="travelers">Number of travelers</label>
+              <select class="form-select" id="travelers" name="travelers">
+                <option value="1">1 — solo</option>
+                <option value="2" selected>2 — couple</option>
+                <option value="3">3 — small group</option>
+                <option value="4">4 — family / friends</option>
+                <option value="5-8">5 – 8 — large group</option>
+                <option value="9+">9+ — requires custom quote</option>
+              </select>
+            </div>
+
+            <div class="form-field form-field--full">
+              <label class="form-label" for="notes">Questions / notes</label>
+              <textarea class="form-textarea" id="notes" name="notes"
+                        placeholder="Tell us what you'd like to see, eat, or do — and we'll suggest a route."></textarea>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <p class="form-note">
+              By sending, you agree to be contacted by the Bicol Regional Tourism
+              Office. We reply within two business days.
+            </p>
+            <button class="btn btn--terracotta" type="submit">
+              Send message <span class="arrow" aria-hidden="true">→</span>
+            </button>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <a class="brand" href="index.html">
+            <span class="brand__mark" aria-hidden="true"></span>
+            Bicol
+          </a>
+          <p class="site-footer__tagline">
+            A student project showcasing the destinations, culture, and travel
+            resources of Region V — Bicol, Philippines.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="history.html">History &amp; Culture</a></li>
+            <li><a href="plan-trip.html">Plan Your Trip</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>Department of Tourism — Region V<br>Legazpi City, Albay 4500</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.81.36 1.6.7 2.34a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.74-1.27a2 2 0 012.11-.45c.74.34 1.53.57 2.34.7A2 2 0 0122 16.92z"/>
+              </svg>
+              <span>+63 (52) 820 0317</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              <span>visit@bicol.ph</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="plan-trip.html#itinerary">3-day itinerary</a></li>
+            <li><a href="plan-trip.html#tips">Travel tips</a></li>
+            <li><a href="plan-trip.html#packing">Packing checklist</a></li>
+            <li><a href="plan-trip.html#contact-form">Contact form</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>&copy; 2025 Student Project · IntroComp Final · Bicol Region V · Philippines.</p>
+        <p>Photos via Wikimedia Commons. Educational use only.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

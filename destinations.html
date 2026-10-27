@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Popular destinations across Bicol Region, Philippines — Mayon Volcano, Cagsawa Ruins, Caramoan Islands, Donsol whale sharks, CamSur Watersports Complex, and Misibis Bay.">
+  <meta name="author" content="Student">
+  <title>Popular Destinations · Bicol Region</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-destinations">
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============================================================
+       SITE HEADER (consistent across all pages)
+       ============================================================ -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html" aria-label="Bicol Travel — home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        Bicol
+        <span class="brand__small">Region V · Philippines</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="destinations.html">Destinations</a></li>
+          <li><a class="nav-link" href="activities.html">Activities</a></li>
+          <li><a class="nav-link" href="history.html">History</a></li>
+          <li><a class="nav-link" href="plan-trip.html">Plan Trip</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================================================
+         PAGE HERO  ·  smaller hero for inner pages
+         ============================================================ -->
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="page-hero__media">
+        <img src="assets/images/mayon-volcano.jpg"
+             alt="Mayon Volcano viewed from the foothills, with rice fields in the foreground"
+             fetchpriority="high">
+      </div>
+      <div class="container page-hero__content">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb__sep">/</span>
+          <span aria-current="page">Destinations</span>
+        </nav>
+        <p class="page-hero__eyebrow">Region V · Six provinces</p>
+        <h1 class="page-hero__title" id="page-title">Popular Destinations</h1>
+        <p class="page-hero__lede">
+          From the perfect cone of Mayon to the hidden lagoons of Caramoan,
+          here are six of the most rewarding stops across Albay, Camarines Sur,
+          and Sorsogon.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DESTINATIONS  ·  alternating image/text rows
+         ============================================================ -->
+    <section class="section" aria-label="Destination list">
+
+      <div class="container">
+
+        <!-- Destination 01 — Mayon Volcano -->
+        <article class="destination" id="mayon">
+          <figure class="destination__media">
+            <img src="assets/images/mayon-volcano.jpg"
+                 alt="Mount Mayon's perfect cone above green foothills in Albay">
+            <span class="destination__index" aria-hidden="true">01</span>
+          </figure>
+          <div class="destination__body">
+            <span class="destination__number">№ 01 · Stratovolcano</span>
+            <h2 class="destination__title">Mayon Volcano</h2>
+            <p class="destination__location">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              Daraga &amp; Legazpi · Albay
+            </p>
+            <p class="destination__desc">
+              Rising 2,463 metres from the Albay plain, Mayon is the world's most
+              perfectly conical volcano — a near-symmetrical silhouette visible
+              from almost anywhere in the province. It is also the country's most
+              active, with recorded eruptions dating to 1616. The summit crater
+              glows faintly at night during periods of unrest, and the surrounding
+              national park offers viewpoints, lava trails, and ATV routes across
+              old flow fields.
+            </p>
+            <div class="destination__tags">
+              <span class="tag">Active volcano</span>
+              <span class="tag">UNESCO tentative</span>
+              <span class="tag">ATV trails</span>
+            </div>
+            <a class="link-underline" href="activities.html#adventure">View activities on Mayon →</a>
+          </div>
+        </article>
+
+        <hr class="rule">
+
+        <!-- Destination 02 — Cagsawa Ruins (reverse layout) -->
+        <article class="destination destination--reverse" id="cagsawa">
+          <figure class="destination__media">
+            <img src="assets/images/cagsawa-ruins.jpg"
+                 alt="The stone bell tower of Cagsawa church ruins with Mayon Volcano behind">
+            <span class="destination__index" aria-hidden="true">02</span>
+          </figure>
+          <div class="destination__body">
+            <span class="destination__number">№ 02 · Ruins &amp; Park</span>
+            <h2 class="destination__title">Cagsawa Ruins</h2>
+            <p class="destination__location">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              Daraga · Albay
+            </p>
+            <p class="destination__desc">
+              The Cagsawa church was buried in 1814 when Mayon erupted violently,
+              killing more than a thousand residents who had taken shelter inside.
+              Today, only the freestanding baroque bell tower remains above the
+              lava line — one of the most photographed ruins in the country. The
+              park around it hosts craft stalls, an abaca-weaving demonstration
+              area, and the clearest unobstructed view of Mayon anywhere in Albay.
+            </p>
+            <div class="destination__tags">
+              <span class="tag">Historical</span>
+              <span class="tag">Photo spot</span>
+              <span class="tag">Park</span>
+            </div>
+            <a class="link-underline" href="history.html">Read the region's history →</a>
+          </div>
+        </article>
+
+        <hr class="rule">
+
+        <!-- Destination 03 — Caramoan Islands -->
+        <article class="destination" id="caramoan">
+          <figure class="destination__media">
+            <img src="assets/images/caramoan-island.jpg"
+                 alt="Limestone cliffs of Caramoan rising from a turquoise lagoon">
+            <span class="destination__index" aria-hidden="true">03</span>
+          </figure>
+          <div class="destination__body">
+            <span class="destination__number">№ 03 · Archipelago</span>
+            <h2 class="destination__title">Caramoan Islands</h2>
+            <p class="destination__location">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              Caramoan Peninsula · Camarines Sur
+            </p>
+            <p class="destination__desc">
+              A scatter of limestone islands ringed by hidden lagoons and powder-fine
+              sand — long closed to mass tourism and reachable only by boat. The
+              international <em>Survivor</em> franchise filmed multiple seasons here,
+              yet most islands remain stunningly empty on weekdays. Sea caves,
+              snorkel reefs, and tide-dependent lagoons are explored by kayak or
+              outrigger banca from Sabang port.
+            </p>
+            <div class="destination__tags">
+              <span class="tag">Island hopping</span>
+              <span class="tag">Limestones</span>
+              <span class="tag">Kayaking</span>
+            </div>
+            <a class="link-underline" href="plan-trip.html#itinerary">Build a 3-day itinerary →</a>
+          </div>
+        </article>
+
+        <hr class="rule">
+
+        <!-- Destination 04 — Donsol Whale Sharks (reverse) -->
+        <article class="destination destination--reverse" id="donsol">
+          <figure class="destination__media">
+            <img src="assets/images/donsol-whale-shark.jpg"
+                 alt="A whale shark — butanding — just below the surface in Donsol waters">
+            <span class="destination__index" aria-hidden="true">04</span>
+          </figure>
+          <div class="destination__body">
+            <span class="destination__number">№ 04 · Marine sanctuary</span>
+            <h2 class="destination__title">Donsol Whale Sharks</h2>
+            <p class="destination__location">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              Donsol · Sorsogon
+            </p>
+            <p class="destination__desc">
+              From February to May, plankton blooms draw the world's largest fish
+              — the whale shark, locally called <em>butanding</em> — to feed in the
+              shallow waters off Donsol. The interaction here is strictly
+              snorkel-only, regulated by the World Wildlife Fund, and is among the
+              most reliable and ethical whale-shark encounters on earth. Donsol
+              River also hosts evening firefly tours through mangrove corridors.
+            </p>
+            <div class="destination__tags">
+              <span class="tag">Whale sharks</span>
+              <span class="tag">Snorkel-only</span>
+              <span class="tag">Feb – May</span>
+            </div>
+            <a class="link-underline" href="activities.html#adventure">See wildlife activities →</a>
+          </div>
+        </article>
+
+        <hr class="rule">
+
+        <!-- Destination 05 — CamSur Watersports Complex -->
+        <article class="destination" id="camsur">
+          <figure class="destination__media">
+            <img src="assets/images/camsur-watersports.jpg"
+                 alt="Cable wakeboarding at CamSur Watersports Complex in Pili">
+            <span class="destination__index" aria-hidden="true">05</span>
+          </figure>
+          <div class="destination__body">
+            <span class="destination__number">№ 05 · Cable wakepark</span>
+            <h2 class="destination__title">CamSur Watersports Complex</h2>
+            <p class="destination__location">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              Pili · Camarines Sur
+            </p>
+            <p class="destination__desc">
+              A six-hectare cable-ski complex inside the provincial capitol grounds,
+              CWC pioneered cable wakeboarding in Southeast Asia. A continuous
+              overhead cable tows riders around an artificial lagoon without need
+              of a boat — making it one of the most accessible wakeparks in the
+              world for first-timers and pros alike. On-site cabanas, a skateboard
+              park, and a 1.8 km running loop round out the campus.
+            </p>
+            <div class="destination__tags">
+              <span class="tag">Wakeboarding</span>
+              <span class="tag">Cable ski</span>
+              <span class="tag">Beginner-friendly</span>
+            </div>
+            <a class="link-underline" href="activities.html#adventure">Try the adventure list →</a>
+          </div>
+        </article>
+
+        <hr class="rule">
+
+        <!-- Destination 06 — Misibis Bay (reverse) -->
+        <article class="destination destination--reverse" id="misibis">
+          <figure class="destination__media">
+            <img src="assets/images/misibis-bay.jpg"
+                 alt="Misibis Bay resort beach with cabanas and clear water">
+            <span class="destination__index" aria-hidden="true">06</span>
+          </figure>
+          <div class="destination__body">
+            <span class="destination__number">№ 06 · Beach resort</span>
+            <h2 class="destination__title">Misibis Bay</h2>
+            <p class="destination__location">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              Bacacay · Albay
+            </p>
+            <p class="destination__desc">
+              A private five-hectare resort on Cagraray Island facing the Pacific,
+              reachable by a 20-minute speedboat from Legazpi. Misibis offers
+              white-sand coves, an infinity pool on the cliffside, and adventure
+              circuits that include a zip-line over the canopy, an ATV trail to the
+              hilltop Peace Chapel, and a mangrove boardwalk — all within a single
+              gated estate.
+            </p>
+            <div class="destination__tags">
+              <span class="tag">Resort</span>
+              <span class="tag">Zip-line</span>
+              <span class="tag">Pacific view</span>
+            </div>
+            <a class="link-underline" href="plan-trip.html">Plan a stay →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CTA  ·  continue to activities
+         ============================================================ -->
+    <section class="section section--ocean">
+      <div class="container">
+        <div class="section-header section-header--centered">
+          <p class="section-header__eyebrow">Continue exploring</p>
+          <h2 class="section-header__title">Ready for what comes <em>next</em>?</h2>
+          <p class="section-header__lede">
+            Browse the activities catalogue — whale sharks, wakeboarding, festivals,
+            cooking classes — then build your three-day itinerary.
+          </p>
+        </div>
+        <div class="text-center">
+          <a class="btn btn--terracotta" href="activities.html">
+            View activities <span class="arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="btn btn--light" href="plan-trip.html" style="margin-left: 0.75rem;">Plan your trip</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER (consistent across all pages)
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <a class="brand" href="index.html">
+            <span class="brand__mark" aria-hidden="true"></span>
+            Bicol
+          </a>
+          <p class="site-footer__tagline">
+            A student project showcasing the destinations, culture, and travel
+            resources of Region V — Bicol, Philippines.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="history.html">History &amp; Culture</a></li>
+            <li><a href="plan-trip.html">Plan Your Trip</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>Department of Tourism — Region V<br>Legazpi City, Albay 4500</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.81.36 1.6.7 2.34a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.74-1.27a2 2 0 012.11-.45c.74.34 1.53.57 2.34.7A2 2 0 0122 16.92z"/>
+              </svg>
+              <span>+63 (52) 820 0317</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              <span>visit@bicol.ph</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="plan-trip.html#itinerary">3-day itinerary</a></li>
+            <li><a href="plan-trip.html#tips">Travel tips</a></li>
+            <li><a href="plan-trip.html#packing">Packing checklist</a></li>
+            <li><a href="plan-trip.html#contact-form">Contact form</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>&copy; 2025 Student Project · IntroComp Final · Bicol Region V · Philippines.</p>
+        <p>Photos via Wikimedia Commons. Educational use only.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
